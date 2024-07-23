@@ -1,0 +1,19 @@
+* {
+    color: #DB9D9D;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@mixin DispAliJust($display, $align, $justify){
+    display: $display;
+    align-items: $align;
+    justify-content: $justify;
+}
+
+.navbar {
+    width: 100%;
+    img {
+        height: 80px;
+    }
+} 
